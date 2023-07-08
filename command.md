@@ -17,3 +17,8 @@ git merge main
 git add .
 git commit -m "描述您的更改"
 git push -u origin develop
+
+
+疑难杂症：
+取消github代理
+git config --global --unset https.https://github.com.proxy
